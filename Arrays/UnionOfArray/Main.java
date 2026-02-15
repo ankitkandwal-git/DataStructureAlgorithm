@@ -6,7 +6,6 @@ import java.util.List;
 public class Main {
     static List<Integer> unionOfArray(int arr1[] , int arr2[] , int m , int n){
         int i=0,j=0;
-        int count = 0;
         List<Integer> ans = new ArrayList<>();
         while(i<m && j<n){
             if(arr1[i]<=arr2[j]){
@@ -14,13 +13,11 @@ public class Main {
                     ans.add(arr1[i]);
                 }
                 i++;
-                count++;
             } else{
                 if(ans.isEmpty() || arr2[j] != ans.get(ans.size()-1)){
                     ans.add(arr2[j]);
                 }
                 j++;
-                count++;
             }
         }
         while(i<m){
@@ -28,14 +25,12 @@ public class Main {
                 ans.add(arr1[i]);
             }
             i++;
-            count++;
         }
         while(j<n){
             if(ans.isEmpty() || arr2[j] != ans.get(ans.size()-1)){
                 ans.add(arr2[j]);
             }
             j++;
-            count++;
         }
         return ans;
     }
