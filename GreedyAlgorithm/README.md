@@ -1,2 +1,20 @@
-# GreedyAlgorithm
-A greedy algorithm is a problem-solving strategy that makes the locally optimal choice at each step, hoping to find the global optimum. It builds solutions piece-by-piece, picking the best immediate option without reconsidering past decisions. While fast and efficient for optimization problems, it does not guarantee the best overall solution
+📚 What is a Greedy Algorithm?
+A greedy algorithm is a problem-solving strategy that makes the locally optimal choice at each step, hoping to find the global optimum. It builds solutions piece-by-piece, picking the best immediate option without reconsidering past decisions.
+
+⚡ Fast & Simple: Efficient for many optimization problems.
+
+
+
+🧩 Typical Steps
+Selection: Choose the best option available.
+Feasibility: Check if the choice is valid.
+Solution Check: Repeat until a complete solution is found. 
+
+📝 Example Problems in This Folder
+Assign Cookies
+Movie Ticket 
+
+
+💡 When to Use Greedy Algorithms?
+When the problem has the greedy-choice property (a global optimum can be reached by choosing local optimums).
+When the problem exhibits optimal substructure (an optimal solution contains optimal solutions to subproblems).
