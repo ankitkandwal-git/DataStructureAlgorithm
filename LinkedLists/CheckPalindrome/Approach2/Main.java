@@ -25,7 +25,5 @@ class Main{
             temp = temp.next;
         }
     }
-    public static boolean checkPalindrome(Node head){
-        
-    }
+    
 }
