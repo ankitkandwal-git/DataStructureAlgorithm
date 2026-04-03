@@ -56,7 +56,7 @@ DSA/
 ## 📦 How to Use
 
 1. Browse to the topic folder of your choice.
-2. Each folder contains subfolders for individual problems.
+2. Each folder contains subfolder for individual problems.
 3. Open the source code files to view or run solutions.
 4. Add your own solutions or improve existing ones!
 
